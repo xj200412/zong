@@ -379,9 +379,9 @@
 
       // 7. 执行跳转
       const redirectPath = {
-        user: "/user/dashboard",
+        user: "/user/users",
         teach_sec: "/sec/listLogs",
-        class_mgr: "/mgr/classrooms",
+        class_mgr: "/mgr",
         super_admin: "/admin/users",
       };
       const targetPath = redirectPath[mapIdentityToApiType()] || "/";
